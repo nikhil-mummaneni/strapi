@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_demo_component2s",
+  "info": {
+    "displayName": "Component2",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Admin": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_demo_dynamics",
+  "info": {
+    "displayName": "Dynamic"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}

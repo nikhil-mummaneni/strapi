@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "practice_collection_type_2s",
+  "info": {
+    "singularName": "practice-collection-type-2",
+    "pluralName": "practice-collection-type-2s",
+    "displayName": "Practice Collection Type 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TestComponent2": {
+      "displayName": "Component 1",
+      "type": "component",
+      "repeatable": true,
+      "component": "demo.component-1"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "practice_collection_type_3s",
+  "info": {
+    "singularName": "practice-collection-type-3",
+    "pluralName": "practice-collection-type-3s",
+    "displayName": "Practice Collection Type 3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

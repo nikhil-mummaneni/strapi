@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "categorie",
+    "pluralName": "categories",
+    "displayName": "Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Restaurant": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::practice-collection-type.practice-collection-type"
+    },
+    "Dynamiczonefield": {
+      "type": "dynamiczone",
+      "components": [
+        "demo.dynamic",
+        "demo.component-1"
+      ]
+    },
+    "Author": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
